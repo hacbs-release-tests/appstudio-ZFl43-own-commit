@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-7ysz
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/qijing/release-e2e-pyxis-tenant/appstudio/dc-metro-map-7ysz@sha256:edbb9acb19c0fefbc5ae878385b7a4b6fbcd0aa834afb423c4c7ae27a7190b73
         name: my-nodejs
         ports:
         - containerPort: 3001
